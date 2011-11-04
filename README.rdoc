@@ -1,3 +1,31 @@
 = MongoidLocalization
 
 This project rocks and uses MIT-LICENSE.
+
+A simple gem for use with mongoid "~> 2.3.3", that adds attribute readers and writers to any Mongoid document, where a field has been set with :localize => true.
+
+Usage:
+
+Add to gemfile:
+
+  gem "mongoid_localization"
+  
+Add to Mongoid document class:
+  "include Mongoid::Localization"
+  
+Now any fields in a mongoid document that has localize set to true will have the following methods available appended with "_translations"
+
+Example:
+
+class Post
+  include Mongoid::Document
+  include Mongoid::Localization
+  
+  field :name, :localize => true
+  
+end
+
+The following methods will now be automatically available:
+
+  @post.name_translations
+  @post.name_translations =
