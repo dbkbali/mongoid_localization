@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = MongoidLocalization::VERSION
   s.authors     = ["David Krett"]
   s.email       = ["david@what2do.asia"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/dbkbali/mongoid_localization"
   s.summary     = "Adds reader and writer methods to allow access to mongoid translations for mongoid ~> 2.3.3"
-  s.description = "TODO: Description of MongoidLocalization."
+  s.description = "Simple gem that adds reader and writer methods to a mongoid document to write and access translations when :localize has been set to true for a field"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
