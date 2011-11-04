@@ -18,8 +18,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir.glob("spec/**/*")
   s.add_dependency "rails", "~> 3.1.1"
   s.add_dependency "mongoid", "~> 2.3.3"
-  s.add_dependency "bson_ext", "1.3"
   s.add_development_dependency "mongoid", "~> 2.3.3"
   s.add_development_dependency "mongo", "~> 1.3"
-  s.add_development_dependency "bson_ext", "~> 1.3"
 end
