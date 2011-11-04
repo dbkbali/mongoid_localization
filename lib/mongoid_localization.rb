@@ -1,0 +1,2 @@
+module MongoidLocalization
+end
