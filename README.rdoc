@@ -8,7 +8,7 @@ Usage:
 
 Add to gemfile:
 
-  gem "mongoid_localization"
+  gem "mongoid_localization", :require => "mongoid/localization"
   
 Add to Mongoid document class:
   "include Mongoid::Localization"
