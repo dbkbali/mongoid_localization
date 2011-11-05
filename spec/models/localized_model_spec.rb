@@ -10,7 +10,7 @@ class Post
 
 end
 
-describe MongoidLocalization, "fields with localize = true" do
+describe Mongoid::Localization, "fields with localize = true" do
   before do
     I18n.available_locales = [:en, :es]
     I18n.locale =:en

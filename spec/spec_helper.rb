@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'mongoid'
-require 'mongoid_localization'
+require 'mongoid/localization'
 require 'rspec'
 require 'rspec/autorun'
 
