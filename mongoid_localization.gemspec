@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir.glob("lib/**/*") + %w(MIT-LICENSE README.rdoc)
   s.test_files = Dir.glob("spec/**/*")
-  s.add_dependency "rails", "~> 3.1.1"
+  #s.add_dependency "rails", "~> 3.1"
   s.add_dependency "mongoid", "~> 2.3.3"
   s.add_development_dependency "mongoid", "~> 2.3.3"
   s.add_development_dependency "mongo", "~> 1.3"
